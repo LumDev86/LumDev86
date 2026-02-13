@@ -12,18 +12,6 @@
                 "title_short_nav": "Contacto",
                 "title_long_prefix": "No dudes en",
                 "title_long": "{{Contácta}}me"
-            },
-            "fr": {
-                "title_short": "Contact",
-                "title_short_nav": "Contact",
-                "title_long_prefix": "N'hésitez pas à",
-                "title_long": "Me {{Contacter}}"
-            },
-            "ko": {
-                "title_short": "연락처",
-                "title_short_nav": "연락처",
-                "title_long_prefix": "주저하지 말고",
-                "title_long": "{{연락}} 주세요"
             }
         }
     },
@@ -49,18 +37,6 @@
                     "contact_thank_you_body": "Tu mensaje ha sido recibido, y me pondré en contacto contigo pronto. Aprecio tu tiempo y espero conectarme contigo.",
                     "contact_thank_you_footer": "La respuesta se enviará a tu dirección de correo electrónico: {{$email}}",
                     "title": "Envíame un {{mensaje}}"
-                },
-                "fr": {
-                    "contact_thank_you_title": "{{Merci}} pour le contact!",
-                    "contact_thank_you_body": "Votre message a été reçu, et je vous contacterai bientôt. J'apprécie votre temps et j'ai hâte de me connecter avec vous!",
-                    "contact_thank_you_footer": "La réponse sera envoyée à votre adresse e-mail: {{$email}}",
-                    "title": "Envoyez-moi un {{message}}"
-                },
-                "ko": {
-                    "contact_thank_you_title": "{{감사합니다}}!",
-                    "contact_thank_you_body": "귀하의 메시지를 받았으며 곧 연락드리겠습니다. 귀하의 시간에 감사드리며 연결되기를 기대합니다!",
-                    "contact_thank_you_footer": "답변은 귀하의 이메일 주소 {{$email}}로 전송됩니다.",
-                    "title": "{{메시지를}} 보내주세요"
                 }
             },
             "items": null
@@ -75,9 +51,7 @@
             },
             "locales": {
                 "en": {"title": "Or if you {{prefer}}..."},
-                "es": {"title": "O si {{prefieres}}..."},
-                "fr": {"title": "Ou si vous {{préférez}}..."},
-                "ko": {"title": "또는 {{원하시면}}..."}
+                "es": {"title": "O si {{prefieres}}..."}
             },
             "items": [
                 {
@@ -89,9 +63,7 @@
                     "copyToClipboardButton": true,
                     "locales": {
                         "en": {"title": "Phone"},
-                        "es": {"title": "Teléfono"},
-                        "fr": {"title": "Téléphone"},
-                        "ko": {"title": "전화"}
+                        "es": {"title": "Teléfono"}
                     }
                 },
                 {
@@ -102,8 +74,7 @@
                     "link": {"href": "mailto:mark.choi@email.com", "tooltipString": "email_me"},
                     "copyToClipboardButton": true,
                     "locales": {
-                        "en": {"title": "E-mail"},
-                        "ko": {"title": "이메일"}
+                        "en": {"title": "E-mail"}
                     }
                 },
                 {
@@ -114,8 +85,7 @@
                     "link": {"href": "https://linkedin.com/in/", "tooltipString": "open_website"},
                     "copyToClipboardButton": false,
                     "locales": {
-                        "en": {"title": "LinkedIn"},
-                        "ko": {"title": "링크드인"}
+                        "en": {"title": "LinkedIn"}
                     }
                 },
                 {
@@ -126,8 +96,7 @@
                     "link": {"href": "https://facebook.com/profiles/mark.choi.855/default", "tooltipString": "open_website"},
                     "copyToClipboardButton": false,
                     "locales": {
-                        "en": {"title": "Facebook"},
-                        "ko": {"title": "페이스북"}
+                        "en": {"title": "Facebook"}
                     }
                 },
                 {
@@ -138,8 +107,7 @@
                     "link": {"href": "https://instagram.com/", "tooltipString": "open_website"},
                     "copyToClipboardButton": false,
                     "locales": {
-                        "en": {"title": "Instagram"},
-                        "ko": {"title": "인스타그램"}
+                        "en": {"title": "Instagram"}
                     }
                 },
                 {
@@ -150,8 +118,7 @@
                     "link": {"href": "https://tiktok.com/@markchoi", "tooltipString": "open_website"},
                     "copyToClipboardButton": false,
                     "locales": {
-                        "en": { "title": "TikTok" },
-                        "ko": { "title": "틱톡" }
+                        "en": { "title": "TikTok" }
                     }
                 }
             ]

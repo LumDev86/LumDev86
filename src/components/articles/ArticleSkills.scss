@@ -76,6 +76,12 @@ div.article-skills-item-avatar {
 
     border-radius: 8px;
     font-size: calc(var(--target-size)*0.7)!important;
+
+    .avatar-view-image-view {
+        width: 65%;
+        height: 65%;
+        object-fit: contain;
+    }
 }
 
 div.article-skills-item-avatar-round {

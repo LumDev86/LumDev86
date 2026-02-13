@@ -16,6 +16,9 @@ $fa-font-path: "@fortawesome/fontawesome-free/webfonts";
 // Importing PrimeIcons...
 @import "primeicons/primeicons.css";
 
+// Importing Devicon (tech brand icons)...
+@import "devicon/devicon.min.css";
+
 // Importing styles...
 @import "root-flags";
 @import "layout/page";
