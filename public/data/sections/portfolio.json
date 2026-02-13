@@ -21,299 +21,96 @@
             "id": 1,
             "component": "ArticlePortfolio",
             "locales": {
-                "en": {
-                    "category_all": "All",
-                    "category_apps": "Apps",
-                    "category_web": "Web",
-                    "category_utilities": "Utilities"
-                },
-                "es": {
-                    "category_all": "Todo",
-                    "category_apps": "Apps",
-                    "category_web": "Web",
-                    "category_utilities": "Utilidades"
-                }
+                "en": {},
+                "es": {}
             },
             "settings": {
-                "categorize_by": ["category_apps", "category_web", "category_utilities"],
+                "categorize_by": [],
                 "order_items_by": "id",
                 "order_items_sort": "asc"
             },
             "items": [
                 {
                     "id": 1,
-                    "categoryId": "category_utilities",
-                    "img": "images/pictures/portfolio-project-logo-3.png",
+                    "categoryId": "",
+                    "img": "images/pictures/wallmapu-logo.png",
                     "faIcon": "",
                     "faIconColors": {"bg": "", "fill": ""},
                     "preview": {
                         "links": [
-                            {"href": "https://github.com", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"},
-                            {"href": "https://npm.com", "tooltipString": "see_on_npm", "faIcon": "fa-brands fa-npm"}
+                            {"href": "https://wall-mapuapi-production.up.railway.app/api/docs", "tooltipString": "open_website", "faIcon": "fa-solid fa-link"},
+                            {"href": "https://github.com/LumDev86/Wall-MapuApi", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}
                         ],
-                        "screenshots": [
-                            "images/pictures/screenshot-demo-landscape-1.png",
-                            "images/pictures/screenshot-demo-landscape-2.png",
-                            "images/pictures/screenshot-demo-landscape-3.png",
-                            "images/pictures/screenshot-demo-landscape-4.png",
-                            "images/pictures/screenshot-demo-landscape-5.png"
-                        ],
-                        "screenshotsAspectRatio": "16:9",
-                        "youtubeVideo": "https://www.youtube.com/watch?v=PnV8p1xm7-o"
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
                     },
                     "locales": {
                         "en": {
-                            "title": "BrainPulse",
-                            "text": "A <b>RESTful API</b> backend built with <b>Node.js</b>, designed for high-performance data processing and real-time event handling.",
-                            "tags": ["API", "REST", "Backend"]
+                            "title": "Wallmapu",
+                            "text": "Backend <b>REST API</b> for a pet shop marketplace built with <b>NestJS</b> and <b>TypeScript</b>. Includes geolocation via PostGIS, <b>MercadoPago</b> payments, JWT auth with role-based access, and <b>Redis</b> caching.",
+                            "tags": ["NestJS", "TypeScript", "PostgreSQL", "Redis"]
                         },
                         "es": {
-                            "text": "Una <b>API RESTful</b> construida con <b>Node.js</b>, diseñada para el procesamiento de datos de alto rendimiento y la gestión de eventos en tiempo real.",
-                            "tags": ["API", "REST", "Backend"]
+                            "title": "Wallmapu",
+                            "text": "<b>API REST</b> backend para un marketplace de petshops con <b>NestJS</b> y <b>TypeScript</b>. Incluye geolocalización con PostGIS, pagos con <b>MercadoPago</b>, autenticación JWT con roles y caché <b>Redis</b>.",
+                            "tags": ["NestJS", "TypeScript", "PostgreSQL", "Redis"]
                         }
                     }
                 },
                 {
                     "id": 2,
-                    "categoryId": "category_apps",
-                    "img": "images/pictures/portfolio-project-logo-7.png",
-                    "faIcon": "",
-                    "faIconColors": {"bg": "", "fill": ""},
+                    "categoryId": "",
+                    "img": "",
+                    "faIcon": "fa-solid fa-building-columns",
+                    "faIconColors": {"bg": "#2C2C2C", "fill": "#E8D5B7"},
                     "preview": {
                         "links": [
-                            {"href": "https://apple.com", "tooltipString": "see_on_app_store", "faIcon": "fa-brands fa-apple"},
-                            {"href": "https://google.com", "tooltipString": "see_on_google_play", "faIcon": "fa-brands fa-google-play"}
+                            {"href": "https://architex-duo-template.vercel.app/", "tooltipString": "open_website", "faIcon": "fa-solid fa-link"},
+                            {"href": "https://github.com/LumDev86/architex-duo-template", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}
                         ],
-                        "screenshots": [
-                            "images/pictures/screenshot-demo-portrait-1.png",
-                            "images/pictures/screenshot-demo-portrait-2.png",
-                            "images/pictures/screenshot-demo-portrait-3.png",
-                            "images/pictures/screenshot-demo-portrait-4.png",
-                            "images/pictures/screenshot-demo-portrait-5.png",
-                            "images/pictures/screenshot-demo-portrait-6.png"
-                        ],
-                        "screenshotsAspectRatio": "9:16",
-                        "youtubeVideo": "https://www.youtube.com/watch?v=TfgBHC5gvTI"
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
                     },
                     "locales": {
                         "en": {
-                            "title": "MailM8",
-                            "text": "A cross-platform email client built with <b>Flutter</b>, providing efficient communication with an intuitive UI for <b>managing emails</b>.",
-                            "tags": ["Flutter", "E-mail", "Communication"]
+                            "title": "Architex Duo",
+                            "text": "Modern and responsive <b>web template</b> for architecture and interior design studios. Minimalist aesthetic with large imagery and <b>intuitive navigation</b> across all devices.",
+                            "tags": ["Web", "Template", "Responsive", "Design"]
                         },
                         "es": {
-                            "text": "Un cliente de correo electrónico multiplataforma construido con <b>Flutter</b>, que ofrece comunicación eficiente y una interfaz intuitiva para la <b>gestión de correos electrónicos</b>.",
-                            "tags": ["Flutter", "Correo", "Comunicación"]
+                            "title": "Architex Duo",
+                            "text": "<b>Plantilla web</b> moderna y responsiva para estudios de arquitectura y diseño interior. Estética minimalista con imágenes destacadas y <b>navegación intuitiva</b> en todos los dispositivos.",
+                            "tags": ["Web", "Template", "Responsive", "Diseño"]
                         }
                     }
                 },
                 {
                     "id": 3,
-                    "categoryId": "category_apps",
-                    "img": "images/pictures/portfolio-project-logo-6.png",
-                    "faIcon": "",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "preview": {
-                        "links": [
-                            {"href": "https://apple.com", "tooltipString": "see_on_app_store", "faIcon": "fa-brands fa-apple"},
-                            {"href": "https://google.com", "tooltipString": "see_on_google_play", "faIcon": "fa-brands fa-google-play"}
-                        ],
-                        "screenshots": [
-                            "images/pictures/screenshot-demo-landscape-1.png",
-                            "images/pictures/screenshot-demo-landscape-2.png",
-                            "images/pictures/screenshot-demo-landscape-3.png",
-                            "images/pictures/screenshot-demo-landscape-4.png",
-                            "images/pictures/screenshot-demo-landscape-5.png"
-                        ],
-                        "screenshotsAspectRatio": "16:9",
-                        "youtubeVideo": ""
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Light Blue",
-                            "text": "A fully-featured productivity app developed with <b>React Native</b>, enabling users to organize tasks, notes, and projects across multiple devices. It offers <b>cloud sync</b>, intuitive UI, and collaboration features.",
-                            "tags": ["React", "Organization", "Notes"]
-                        },
-                        "es": {
-                            "text": "Una app de productividad con todas las funciones, desarrollada con <b>React Native</b>, que permite a los usuarios organizar tareas, notas y proyectos en varios dispositivos. Ofrece <b>sincronización en la nube</b>, interfaz intuitiva y características de colaboración.",
-                            "tags": ["React", "Organización", "Notas"]
-                        }
-                    }
-                },
-                {
-                    "id": 4,
-                    "categoryId": "category_web",
-                    "img": "images/pictures/portfolio-project-logo-1.png",
-                    "faIcon": "",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "preview": {
-                        "links": [
-                            {"href": "https://cash.com", "tooltipString": "open_website", "faIcon": "fa-solid fa-link"}
-                        ],
-                        "screenshots": [
-
-                        ],
-                        "screenshotsAspectRatio": "",
-                        "youtubeVideo": "https://www.youtube.com/watch?v=MQe_MoJ7Iww"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "SmartCash",
-                            "text": "A finance website built using <b>Next.js</b>, allowing users to <b>track budgets</b> and manage their money with interactive charts and insights.",
-                            "tags": ["Next.js", "Finance", "Money"]
-                        },
-                        "es": {
-                            "title": "SmartCash",
-                            "text": "Un sitio web financiero construido con <b>Next.js</b>, que permite a los usuarios <b>seguir presupuestos</b> y gestionar su dinero con gráficos interactivos e ideas.",
-                            "tags": ["Next.js", "Finanzas", "Dinero"]
-                        }
-                    }
-                },
-                {
-                    "id": 5,
-                    "categoryId": "category_apps",
-                    "img": "images/pictures/portfolio-project-logo-2.png",
-                    "faIcon": "",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "preview": {
-                        "links": [
-                            {"href": "https://apple.com", "tooltipString": "see_on_app_store", "faIcon": "fa-brands fa-apple"},
-                            {"href": "https://google.com", "tooltipString": "see_on_google_play", "faIcon": "fa-brands fa-google-play"}
-                        ],
-                        "screenshots": [
-
-                        ],
-                        "screenshotsAspectRatio": "",
-                        "youtubeVideo": ""
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Snappy",
-                            "text": "A powerful photography app designed with <b>Swift</b> for iOS and Android, featuring <b>advanced camera controls</b>, editing tools, and AI-powered filters for quick photo enhancements.",
-                            "tags": ["Swift", "Photography", "Camera"]
-                        },
-                        "es": {
-                            "title": "Snappy",
-                            "text": "Una app de fotografía potente diseñada con <b>Swift</b> para iOS y Android, con <b>controles avanzados de cámara</b>, herramientas de edición y filtros potenciados por IA para mejoras rápidas de fotos.",
-                            "tags": ["Swift", "Fotografía", "Cámara"]
-                        }
-                    }
-                },
-                {
-                    "id": 6,
-                    "categoryId": "category_web",
-                    "img": "images/pictures/portfolio-project-logo-5.png",
-                    "faIcon": "",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "preview": {
-                        "links": [
-                            {"href": "https://google.com", "tooltipString": "open_website", "faIcon": "fa-solid fa-link"}
-                        ],
-                        "screenshots": [
-
-                        ],
-                        "screenshotsAspectRatio": "",
-                        "youtubeVideo": ""
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Sweet Scoops",
-                            "text": "A recipe website built with <b>WordPress</b> and WooCommerce, featuring a rich collection of <b>dessert recipes</b> and an integrated e-commerce platform.",
-                            "tags": ["WooCommerce", "Food", "Desserts"]
-                        },
-                        "es": {
-                            "title": "Sweet Scoops",
-                            "text": "Un sitio web de recetas construido con <b>WordPress</b> y WooCommerce, con una rica colección de <b>recetas de postres</b> y una plataforma de comercio electrónico integrada.",
-                            "tags": ["WooCommerce", "Comida", "Postres"]
-                        }
-                    }
-                },
-                {
-                    "id": 7,
-                    "categoryId": "category_web",
+                    "categoryId": "",
                     "img": "",
-                    "faIcon": "fa-solid fa-guitar",
-                    "faIconColors": {"bg": "#7671AA", "fill": "#EEEEEE"},
+                    "faIcon": "fa-solid fa-burger",
+                    "faIconColors": {"bg": "#D32F2F", "fill": "#FFC107"},
                     "preview": {
                         "links": [
-                            {"href": "https://google.com", "tooltipString": "open_website", "faIcon": "fa-solid fa-link"}
+                            {"href": "https://fast-food-app-livid.vercel.app/", "tooltipString": "open_website", "faIcon": "fa-solid fa-link"},
+                            {"href": "https://github.com/LumDev86/fastFoodApp", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}
                         ],
-                        "screenshots": [
-
-                        ],
+                        "screenshots": [],
                         "screenshotsAspectRatio": "",
                         "youtubeVideo": ""
                     },
                     "locales": {
                         "en": {
-                            "title": "RockVerse",
-                            "text": "A dynamic music and entertainment website developed with <b>Django</b>, showcasing rock music news, events, and <b>streaming content</b>.",
-                            "tags": ["Django", "Music", "Rock"]
+                            "title": "Fast Food App",
+                            "text": "<b>Web application</b> simulating a fast food ordering system. Attractive interface for browsing and selecting menu items with <b>responsive navigation</b>. Deployed on Vercel.",
+                            "tags": ["Frontend", "Web App", "Vercel"]
                         },
                         "es": {
-                            "title": "RockVerse",
-                            "text": "Un sitio web dinámico de música y entretenimiento desarrollado con <b>Django</b>, que muestra noticias de música rock, eventos y <b>contenido en streaming</b>.",
-                            "tags": ["Django", "Música", "Rock"]
-                        }
-                    }
-                },
-                {
-                    "id": 8,
-                    "categoryId": "category_utilities",
-                    "img": "images/pictures/portfolio-project-logo-4.png",
-                    "faIcon": "",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "preview": {
-                        "links": [
-
-                        ],
-                        "screenshots": [
-
-                        ],
-                        "screenshotsAspectRatio": "",
-                        "youtubeVideo": "https://www.youtube.com/watch?v=bf3Lz33nHy0"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Soccer Analytics",
-                            "text": "An AI-powered sports analytics platform built with <b>Python</b> and <b>TensorFlow</b>, offering detailed soccer <b>predictions</b> and team management tools.",
-                            "tags": ["AI", "Prediction", "Soccer"]
-                        },
-                        "es": {
-                            "title": "Soccer Analytics",
-                            "text": "Una plataforma de análisis deportivo impulsada por IA construida con <b>Python</b> y <b>TensorFlow</b>, que ofrece <b>predicciones</b> detalladas de fútbol y herramientas de gestión de equipos.",
-                            "tags": ["IA", "Predicción", "Fútbol"]
-                        }
-                    }
-                },
-                {
-                    "id": 9,
-                    "categoryId": "category_apps",
-                    "img": "",
-                    "faIcon": "fa-solid fa-truck-fast",
-                    "faIconColors": {"bg": "#007396", "fill": "#EEEEEE"},
-                    "preview": {
-                        "links": [
-                            {"href": "https://apple.com", "tooltipString": "see_on_app_store", "faIcon": "fa-brands fa-apple"},
-                            {"href": "https://google.com", "tooltipString": "see_on_google_play", "faIcon": "fa-brands fa-google-play"},
-                            {"href": "https://windows.com", "tooltipString": "see_on_windows_store", "faIcon": "fa-brands fa-windows"}
-                        ],
-                        "screenshots": [
-
-                        ],
-                        "screenshotsAspectRatio": "",
-                        "youtubeVideo": ""
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "QuickDrop",
-                            "text": "A cross-platform delivery app built with <b>React Native</b> and a <b>Node.js backend</b>, featuring <b>real-time tracking</b> and seamless integration with multiple platforms.",
-                            "tags": ["React Native", "Delivery", "Real-Time Tracking"]
-                        },
-                        "es": {
-                            "title": "QuickDrop",
-                            "text": "Una app de entregas multiplataforma construida con <b>React Native</b> y un backend de <b>Node.js</b>, con <b>seguimiento en tiempo real</b> e integración perfecta en múltiples plataformas.",
-                            "tags": ["React Native", "Entrega", "Seguimiento"]
+                            "title": "Fast Food App",
+                            "text": "<b>Aplicación web</b> que simula un sistema de pedidos de comida rápida. Interfaz atractiva para explorar y seleccionar del menú con <b>navegación responsiva</b>. Desplegada en Vercel.",
+                            "tags": ["Frontend", "Web App", "Vercel"]
                         }
                     }
                 }
