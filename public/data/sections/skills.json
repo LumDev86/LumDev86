@@ -295,6 +295,24 @@
                             "text": "Pruebas, documentación y depuración de APIs."
                         }
                     }
+                },
+                {
+                    "id": 10,
+                    "img": "",
+                    "faIcon": "devicon-swagger-plain",
+                    "faIconColors": {"bg": "", "fill": "#85EA2D", "fillLight": "#5a9e1e"},
+                    "date": {"year": null, "month": null},
+                    "percentage": null,
+                    "locales": {
+                        "en": {
+                            "title": "Swagger",
+                            "text": "API documentation and design with OpenAPI specification.",
+                            "level": ""
+                        },
+                        "es": {
+                            "text": "Documentación y diseño de APIs con especificación OpenAPI."
+                        }
+                    }
                 }
             ]
         },
