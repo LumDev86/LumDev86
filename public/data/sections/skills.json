@@ -137,6 +137,24 @@
                 {
                     "id": 1,
                     "img": "",
+                    "faIcon": "devicon-typescript-plain",
+                    "faIconColors": {"bg": "", "fill": "#3178C6"},
+                    "date": {"year": null, "month": null},
+                    "percentage": null,
+                    "locales": {
+                        "en": {
+                            "title": "TypeScript",
+                            "text": "The language I use the most right now on the server side. I apply it with NestJS to build typed, scalable APIs with safer and more maintainable code.",
+                            "level": ""
+                        },
+                        "es": {
+                            "text": "El lenguaje que más utilizo actualmente del lado del servidor. Lo aplico con NestJS para construir APIs tipadas y escalables con código más seguro y mantenible."
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "",
                     "faIcon": "fa-brands fa-node-js",
                     "faIconColors": {"bg": "", "fill": "#339933"},
                     "date": {"year": null, "month": null},
@@ -153,7 +171,7 @@
                     }
                 },
                 {
-                    "id": 2,
+                    "id": 3,
                     "img": "",
                     "faIcon": "devicon-nestjs-original",
                     "faIconColors": {"bg": "", "fill": "#E0234E"},
@@ -171,7 +189,7 @@
                     }
                 },
                 {
-                    "id": 3,
+                    "id": 4,
                     "img": "",
                     "faIcon": "devicon-mysql-plain",
                     "faIconColors": {"bg": "", "fill": "#4479A1"},
@@ -189,7 +207,7 @@
                     }
                 },
                 {
-                    "id": 4,
+                    "id": 5,
                     "img": "",
                     "faIcon": "devicon-postgresql-plain",
                     "faIconColors": {"bg": "", "fill": "#336791"},
@@ -207,7 +225,7 @@
                     }
                 },
                 {
-                    "id": 5,
+                    "id": 6,
                     "img": "",
                     "faIcon": "devicon-mongodb-plain",
                     "faIconColors": {"bg": "", "fill": "#47A248"},
@@ -225,7 +243,7 @@
                     }
                 },
                 {
-                    "id": 6,
+                    "id": 7,
                     "img": "",
                     "faIcon": "devicon-supabase-original",
                     "faIconColors": {"bg": "", "fill": "#3ECF8E"},
@@ -243,7 +261,7 @@
                     }
                 },
                 {
-                    "id": 7,
+                    "id": 8,
                     "img": "",
                     "faIcon": "fa-brands fa-docker",
                     "faIconColors": {"bg": "", "fill": "#2496ED"},
@@ -261,7 +279,7 @@
                     }
                 },
                 {
-                    "id": 8,
+                    "id": 9,
                     "img": "",
                     "faIcon": "fa-brands fa-git",
                     "faIconColors": {"bg": "", "fill": "#F05032"},
@@ -279,7 +297,7 @@
                     }
                 },
                 {
-                    "id": 9,
+                    "id": 10,
                     "img": "",
                     "faIcon": "devicon-postman-plain",
                     "faIconColors": {"bg": "", "fill": "#FF6C37"},
@@ -297,7 +315,7 @@
                     }
                 },
                 {
-                    "id": 10,
+                    "id": 11,
                     "img": "",
                     "faIcon": "devicon-swagger-plain",
                     "faIconColors": {"bg": "", "fill": "#85EA2D", "fillLight": "#5a9e1e"},
@@ -389,6 +407,24 @@
                 {
                     "id": 4,
                     "img": "",
+                    "faIcon": "devicon-typescript-plain",
+                    "faIconColors": {"bg": "", "fill": "#3178C6"},
+                    "date": {"year": null, "month": null},
+                    "percentage": null,
+                    "locales": {
+                        "en": {
+                            "title": "TypeScript",
+                            "text": "The language I use the most on the client side as well. I apply it with React, Next.js, and React Native to build typed, robust, and maintainable interfaces.",
+                            "level": ""
+                        },
+                        "es": {
+                            "text": "El lenguaje que más utilizo también del lado del cliente. Lo aplico con React, Next.js y React Native para construir interfaces tipadas, robustas y mantenibles."
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "img": "",
                     "faIcon": "fa-brands fa-react",
                     "faIconColors": {"bg": "", "fill": "#61DAFB", "fillLight": "#317385"},
                     "date": {"year": null, "month": null},
@@ -405,7 +441,7 @@
                     }
                 },
                 {
-                    "id": 5,
+                    "id": 6,
                     "img": "",
                     "faIcon": "devicon-nextjs-plain",
                     "faIconColors": {"bg": "", "fill": "#000000", "fillLight": "#666666"},
@@ -423,7 +459,7 @@
                     }
                 },
                 {
-                    "id": 6,
+                    "id": 7,
                     "img": "",
                     "faIcon": "fa-brands fa-bootstrap",
                     "faIconColors": {"bg": "", "fill": "#7952B3"},
@@ -441,7 +477,7 @@
                     }
                 },
                 {
-                    "id": 7,
+                    "id": 8,
                     "img": "",
                     "faIcon": "devicon-tailwindcss-original",
                     "faIconColors": {"bg": "", "fill": "#06B6D4"},
@@ -459,7 +495,7 @@
                     }
                 },
                 {
-                    "id": 8,
+                    "id": 9,
                     "img": "",
                     "faIcon": "devicon-reactnative-original",
                     "faIconColors": {"bg": "", "fill": "#61DAFB", "fillLight": "#317385"},
