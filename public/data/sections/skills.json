@@ -144,11 +144,11 @@
                     "locales": {
                         "en": {
                             "title": "Node.js",
-                            "text": "Server-side JavaScript runtime for building scalable applications.",
+                            "text": "It was my first tool for backend development, building REST APIs during my first year. It laid the foundation for my experience in the server-side JavaScript ecosystem.",
                             "level": ""
                         },
                         "es": {
-                            "text": "Entorno de ejecución JavaScript del lado del servidor para aplicaciones escalables."
+                            "text": "Fue mi primera herramienta para el desarrollo backend, construyendo APIs REST durante mi primer año. Sentó las bases de mi experiencia en el ecosistema JavaScript del lado del servidor."
                         }
                     }
                 },
@@ -162,11 +162,11 @@
                     "locales": {
                         "en": {
                             "title": "NestJS",
-                            "text": "Progressive Node.js framework for building efficient and scalable server-side applications.",
+                            "text": "My main framework for real client projects. I use it when the project requires a robust architecture, especially in large-scale applications with multiple modules.",
                             "level": ""
                         },
                         "es": {
-                            "text": "Framework progresivo de Node.js para construir aplicaciones del lado del servidor eficientes y escalables."
+                            "text": "Mi framework principal para proyectos reales con clientes. Lo utilizo cuando el proyecto requiere una arquitectura robusta, especialmente en aplicaciones grandes con múltiples módulos."
                         }
                     }
                 },
@@ -180,11 +180,11 @@
                     "locales": {
                         "en": {
                             "title": "MySQL",
-                            "text": "Relational database management and optimization.",
+                            "text": "I use it in real client projects, managing relational databases with well-structured schemas for production applications.",
                             "level": ""
                         },
                         "es": {
-                            "text": "Gestión y optimización de bases de datos relacionales."
+                            "text": "Lo utilizo en proyectos reales con clientes, gestionando bases de datos relacionales con esquemas bien estructurados para aplicaciones en producción."
                         }
                     }
                 },
@@ -198,11 +198,11 @@
                     "locales": {
                         "en": {
                             "title": "PostgreSQL",
-                            "text": "Advanced relational database with robust features.",
+                            "text": "My go-to relational database for production projects, connecting it to services like Supabase or AWS Aurora depending on the project's requirements.",
                             "level": ""
                         },
                         "es": {
-                            "text": "Base de datos relacional avanzada con funcionalidades robustas."
+                            "text": "Mi base de datos relacional principal para proyectos en producción, conectándola a servicios como Supabase o Aurora de AWS según los requerimientos del proyecto."
                         }
                     }
                 },
@@ -216,11 +216,11 @@
                     "locales": {
                         "en": {
                             "title": "MongoDB",
-                            "text": "NoSQL database for flexible and scalable data storage.",
+                            "text": "I used it mainly in practice and learning projects, working with flexible schemas and non-relational data to understand its advantages over SQL databases.",
                             "level": ""
                         },
                         "es": {
-                            "text": "Base de datos NoSQL para almacenamiento de datos flexible y escalable."
+                            "text": "Lo utilicé principalmente en proyectos de práctica y aprendizaje, trabajando con esquemas flexibles y datos no relacionales para entender sus ventajas frente a bases SQL."
                         }
                     }
                 },
@@ -234,11 +234,11 @@
                     "locales": {
                         "en": {
                             "title": "Supabase",
-                            "text": "Open-source Firebase alternative with PostgreSQL backend.",
+                            "text": "I integrate it as a backend-as-a-service in real projects, leveraging its PostgreSQL core for authentication, storage, and real-time APIs without managing complex infrastructure.",
                             "level": ""
                         },
                         "es": {
-                            "text": "Alternativa open-source a Firebase con backend en PostgreSQL."
+                            "text": "Lo integro como backend-as-a-service en proyectos reales, aprovechando su base PostgreSQL para autenticación, almacenamiento y APIs en tiempo real sin gestionar infraestructura compleja."
                         }
                     }
                 },
@@ -252,11 +252,11 @@
                     "locales": {
                         "en": {
                             "title": "Docker",
-                            "text": "Containerization for consistent development and deployment environments.",
+                            "text": "I've used it to a lesser extent for containerizing applications and maintaining consistency between development and production environments.",
                             "level": ""
                         },
                         "es": {
-                            "text": "Contenedorización para entornos de desarrollo y despliegue consistentes."
+                            "text": "Lo he utilizado en menor medida para contenedorizar aplicaciones y mantener consistencia entre entornos de desarrollo y producción."
                         }
                     }
                 },
@@ -270,11 +270,11 @@
                     "locales": {
                         "en": {
                             "title": "Git",
-                            "text": "Version control and team collaboration.",
+                            "text": "An essential tool in my daily workflow. I use it in virtually all my projects for version control, branch management, and collaborative teamwork.",
                             "level": ""
                         },
                         "es": {
-                            "text": "Control de versiones y colaboración en equipo."
+                            "text": "Herramienta esencial en mi día a día. Lo utilizo en prácticamente todos mis proyectos para control de versiones, gestión de ramas y trabajo colaborativo en equipo."
                         }
                     }
                 },
@@ -288,11 +288,11 @@
                     "locales": {
                         "en": {
                             "title": "Postman",
-                            "text": "API testing, documentation, and debugging.",
+                            "text": "My main tool for testing and debugging APIs during development. I use it in almost all my projects to validate endpoints and organize request collections.",
                             "level": ""
                         },
                         "es": {
-                            "text": "Pruebas, documentación y depuración de APIs."
+                            "text": "Mi herramienta principal para probar y depurar APIs durante el desarrollo. La utilizo en casi todos mis proyectos para validar endpoints y organizar colecciones de peticiones."
                         }
                     }
                 },
@@ -306,11 +306,11 @@
                     "locales": {
                         "en": {
                             "title": "Swagger",
-                            "text": "API documentation and design with OpenAPI specification.",
+                            "text": "I integrate it into my APIs to generate automatic and interactive documentation. It's a tool I use in almost all my backend projects to streamline frontend collaboration.",
                             "level": ""
                         },
                         "es": {
-                            "text": "Documentación y diseño de APIs con especificación OpenAPI."
+                            "text": "Lo integro en mis APIs para generar documentación automática e interactiva. Es una herramienta que uso en casi todos mis proyectos backend para facilitar la colaboración con el frontend."
                         }
                     }
                 }
@@ -342,11 +342,11 @@
                     "locales": {
                         "en": {
                             "title": "HTML 5",
-                            "text": "Building structured and semantic web pages.",
+                            "text": "Although I currently use it less frequently, I rely on HTML for building landing pages. I maintain solid knowledge in semantic structure and accessibility.",
                             "level": ""
                         },
                         "es": {
-                            "text": "Construcción de páginas web estructuradas y semánticas."
+                            "text": "Aunque actualmente la utilizo con menor frecuencia, recurro a HTML para la construcción de landing pages. Mantengo sólidos conocimientos en estructura semántica y accesibilidad."
                         }
                     }
                 },
@@ -360,11 +360,11 @@
                     "locales": {
                         "en": {
                             "title": "CSS 3",
-                            "text": "Responsive and visually appealing designs.",
+                            "text": "Like HTML, its direct use is less frequent in my current projects, but I maintain the skills to style and layout when needed, especially for landing pages.",
                             "level": ""
                         },
                         "es": {
-                            "text": "Diseños responsivos y visualmente atractivos."
+                            "text": "Al igual que HTML, su uso directo es menos frecuente en mis proyectos actuales, pero mantengo los conocimientos para estilizar y maquetar cuando se requiere, especialmente en landing pages."
                         }
                     }
                 },
@@ -378,11 +378,11 @@
                     "locales": {
                         "en": {
                             "title": "JavaScript ES6+",
-                            "text": "Dynamic and interactive web applications.",
+                            "text": "It was the foundation of my learning and I used it extensively in my early days. Today I still use it indirectly through frameworks like React and Next.js in all my projects.",
                             "level": ""
                         },
                         "es": {
-                            "text": "Aplicaciones web dinámicas e interactivas."
+                            "text": "Fue la base de mi aprendizaje y lo utilicé intensamente en mis inicios. Hoy lo sigo usando indirectamente a través de frameworks como React y Next.js en todos mis proyectos."
                         }
                     }
                 },
@@ -396,11 +396,11 @@
                     "locales": {
                         "en": {
                             "title": "React",
-                            "text": "Building modern and reusable UI components.",
+                            "text": "One of the technologies I use most currently. I build dynamic interfaces with hooks, context API, and reusable components for interactive web applications.",
                             "level": ""
                         },
                         "es": {
-                            "text": "Construcción de componentes UI modernos y reutilizables."
+                            "text": "Una de las tecnologías que más utilizo actualmente. Desarrollo interfaces dinámicas con hooks, context API y componentes reutilizables para aplicaciones web interactivas."
                         }
                     }
                 },
@@ -414,11 +414,11 @@
                     "locales": {
                         "en": {
                             "title": "Next.js",
-                            "text": "React framework for production with SSR and SSG.",
+                            "text": "Along with React Native, it's one of the technologies I'm using the most right now. I apply it in projects that need SSR, SSG, and performance optimization in production.",
                             "level": ""
                         },
                         "es": {
-                            "text": "Framework de React para producción con SSR y SSG."
+                            "text": "Junto con React Native, es una de las tecnologías que más estoy utilizando actualmente. La aplico en proyectos que necesitan SSR, SSG y optimización de rendimiento en producción."
                         }
                     }
                 },
@@ -432,11 +432,11 @@
                     "locales": {
                         "en": {
                             "title": "Bootstrap 5+",
-                            "text": "Responsive design with pre-built components.",
+                            "text": "I use it occasionally for quickly building responsive interfaces, although in most of my current projects I prefer Tailwind CSS for its flexibility.",
                             "level": ""
                         },
                         "es": {
-                            "text": "Diseño responsivo con componentes preconstruidos."
+                            "text": "Lo utilizo ocasionalmente para maquetar interfaces responsivas de forma rápida, aunque en la mayoría de mis proyectos actuales prefiero Tailwind CSS por su flexibilidad."
                         }
                     }
                 },
@@ -450,11 +450,29 @@
                     "locales": {
                         "en": {
                             "title": "Tailwind CSS",
-                            "text": "Utility-first CSS framework for rapid UI development.",
+                            "text": "My preferred styling framework right now. I use it in most of my projects for its utility-first approach that allows me to build interfaces quickly with full design control.",
                             "level": ""
                         },
                         "es": {
-                            "text": "Framework CSS utility-first para desarrollo rápido de interfaces."
+                            "text": "Mi framework de estilos preferido actualmente. Lo utilizo en la mayoría de mis proyectos por su enfoque utility-first que me permite construir interfaces rápidamente con control total del diseño."
+                        }
+                    }
+                },
+                {
+                    "id": 8,
+                    "img": "",
+                    "faIcon": "devicon-reactnative-original",
+                    "faIconColors": {"bg": "", "fill": "#61DAFB", "fillLight": "#317385"},
+                    "date": {"year": null, "month": null},
+                    "percentage": null,
+                    "locales": {
+                        "en": {
+                            "title": "React Native",
+                            "text": "The technology I'm using the most right now. I develop cross-platform mobile apps leveraging my React knowledge to create native experiences on iOS and Android.",
+                            "level": ""
+                        },
+                        "es": {
+                            "text": "La tecnología que más estoy utilizando actualmente. Desarrollo aplicaciones móviles multiplataforma aprovechando mis conocimientos en React para crear experiencias nativas en iOS y Android."
                         }
                     }
                 }
@@ -486,12 +504,12 @@
                     "locales": {
                         "en": {
                             "title": "Leadership",
-                            "text": "Guiding teams toward objectives with clear direction and motivation.",
+                            "text": "I coordinate development teams by defining priorities, facilitating meetings, and ensuring each team member has clarity on their responsibilities and objectives.",
                             "level": ""
                         },
                         "es": {
                             "title": "Liderazgo",
-                            "text": "Guiar equipos hacia los objetivos con dirección clara y motivación.",
+                            "text": "Coordino equipos de desarrollo definiendo prioridades, facilitando reuniones y asegurando que cada miembro del equipo tenga claridad en sus responsabilidades y objetivos.",
                             "level": ""
                         }
                     }
@@ -506,12 +524,12 @@
                     "locales": {
                         "en": {
                             "title": "Communication",
-                            "text": "Clear and concise communication to facilitate collaboration between roles.",
+                            "text": "I bridge the gap between technical and non-technical areas, ensuring requirements are correctly understood and the team stays aligned at every stage of the project.",
                             "level": ""
                         },
                         "es": {
                             "title": "Comunicación",
-                            "text": "Comunicación clara y concisa para facilitar la colaboración entre roles.",
+                            "text": "Facilito la comunicación entre áreas técnicas y no técnicas, asegurando que los requerimientos se entiendan correctamente y el equipo esté alineado en cada etapa del proyecto.",
                             "level": ""
                         }
                     }
@@ -526,12 +544,12 @@
                     "locales": {
                         "en": {
                             "title": "Teamwork",
-                            "text": "Collaborating effectively to achieve shared goals in agile environments.",
+                            "text": "I actively collaborate in agile environments, participating in code reviews, pair programming, and retrospectives to continuously improve team processes.",
                             "level": ""
                         },
                         "es": {
                             "title": "Trabajo en equipo",
-                            "text": "Colaborar eficazmente para lograr objetivos compartidos en entornos ágiles.",
+                            "text": "Colaboro activamente en entornos ágiles, participando en code reviews, pair programming y retrospectivas para mejorar continuamente los procesos del equipo.",
                             "level": ""
                         }
                     }
@@ -546,12 +564,12 @@
                     "locales": {
                         "en": {
                             "title": "Organization",
-                            "text": "Planning and prioritizing tasks to meet deadlines efficiently.",
+                            "text": "I manage my tasks with tools like Jira and Notion, prioritizing by impact and urgency to ensure deliveries within established deadlines.",
                             "level": ""
                         },
                         "es": {
                             "title": "Organización",
-                            "text": "Planificación y priorización de tareas para cumplir plazos eficientemente.",
+                            "text": "Gestiono mis tareas con herramientas como Jira y Notion, priorizando según impacto y urgencia para asegurar entregas dentro de los plazos establecidos.",
                             "level": ""
                         }
                     }
@@ -566,12 +584,12 @@
                     "locales": {
                         "en": {
                             "title": "Problem Solving",
-                            "text": "Analyzing issues and finding effective solutions under pressure.",
+                            "text": "I analyze bugs and technical challenges with a methodical approach, investigating root causes and proposing sustainable solutions rather than temporary fixes.",
                             "level": ""
                         },
                         "es": {
                             "title": "Resolución de problemas",
-                            "text": "Analizar problemas y encontrar soluciones efectivas bajo presión.",
+                            "text": "Analizo bugs y desafíos técnicos con enfoque metódico, investigando las causas raíz y proponiendo soluciones sostenibles en lugar de parches temporales.",
                             "level": ""
                         }
                     }
@@ -586,12 +604,12 @@
                     "locales": {
                         "en": {
                             "title": "Adaptability",
-                            "text": "Adjusting quickly to new tools, roles, and changing requirements.",
+                            "text": "I quickly adapt to new technologies and methodologies, learning self-taught to respond to the changing needs of each project and its tech stack.",
                             "level": ""
                         },
                         "es": {
                             "title": "Adaptabilidad",
-                            "text": "Ajustarse rápidamente a nuevas herramientas, roles y requisitos cambiantes.",
+                            "text": "Me adapto rápidamente a nuevas tecnologías y metodologías, aprendiendo de forma autodidacta para responder a las necesidades cambiantes de cada proyecto y su stack tecnológico.",
                             "level": ""
                         }
                     }
@@ -624,11 +642,11 @@
                     "locales": {
                         "en": {
                             "title": "GitHub",
-                            "text": "Code hosting, collaboration, and version control with Git.",
+                            "text": "My main platform for hosting and managing code. I collaborate through pull requests, code reviews, and use GitHub Actions to automate workflows.",
                             "level": ""
                         },
                         "es": {
-                            "text": "Alojamiento de código, colaboración y control de versiones con Git."
+                            "text": "Mi plataforma principal para alojar y gestionar código. Colaboro mediante pull requests, code reviews y utilizo GitHub Actions para automatizar flujos de trabajo."
                         }
                     }
                 },
@@ -642,11 +660,11 @@
                     "locales": {
                         "en": {
                             "title": "Jira",
-                            "text": "Agile project management and issue tracking.",
+                            "text": "I use it for agile project management, organizing sprints, tracking tasks and bugs, and participating in Scrum ceremonies with the team.",
                             "level": ""
                         },
                         "es": {
-                            "text": "Gestión ágil de proyectos y seguimiento de tareas."
+                            "text": "Lo utilizo para la gestión de proyectos ágiles, organizando sprints, haciendo seguimiento de tareas y bugs, y participando en ceremonias Scrum con el equipo."
                         }
                     }
                 },
@@ -660,11 +678,11 @@
                     "locales": {
                         "en": {
                             "title": "Notion",
-                            "text": "Team documentation, planning, and knowledge management.",
+                            "text": "My go-to tool for documenting technical processes, organizing team knowledge bases, and managing the planning of personal and professional projects.",
                             "level": ""
                         },
                         "es": {
-                            "text": "Documentación, planificación y gestión del conocimiento en equipo."
+                            "text": "Mi herramienta para documentar procesos técnicos, organizar bases de conocimiento del equipo y gestionar la planificación de proyectos personales y profesionales."
                         }
                     }
                 },
@@ -678,11 +696,11 @@
                     "locales": {
                         "en": {
                             "title": "Google Cloud",
-                            "text": "Cloud computing services for hosting and infrastructure.",
+                            "text": "I use services like Cloud Run and Cloud Storage to deploy applications and manage cloud resources in a scalable and cost-effective way.",
                             "level": ""
                         },
                         "es": {
-                            "text": "Servicios de computación en la nube para alojamiento e infraestructura."
+                            "text": "Utilizo servicios como Cloud Run y Cloud Storage para desplegar aplicaciones y gestionar recursos en la nube de forma escalable y eficiente."
                         }
                     }
                 },
@@ -696,11 +714,11 @@
                     "locales": {
                         "en": {
                             "title": "Render",
-                            "text": "Cloud platform for deploying web applications and services.",
+                            "text": "I deploy APIs and backend services leveraging its GitHub integration for automatic deployments with each push to the repository.",
                             "level": ""
                         },
                         "es": {
-                            "text": "Plataforma en la nube para desplegar aplicaciones y servicios web."
+                            "text": "Despliego APIs y servicios backend aprovechando su integración con GitHub para despliegues automáticos con cada push al repositorio."
                         }
                     }
                 },
@@ -714,11 +732,11 @@
                     "locales": {
                         "en": {
                             "title": "Vercel",
-                            "text": "Deployment platform optimized for frontend frameworks.",
+                            "text": "My preferred platform for deploying frontend applications with React and Next.js, taking advantage of its automatic branch previews and performance optimization.",
                             "level": ""
                         },
                         "es": {
-                            "text": "Plataforma de despliegue optimizada para frameworks frontend."
+                            "text": "Mi plataforma preferida para desplegar aplicaciones frontend con React y Next.js, aprovechando sus previews automáticas por branch y optimización de rendimiento."
                         }
                     }
                 },
@@ -732,11 +750,11 @@
                     "locales": {
                         "en": {
                             "title": "AWS",
-                            "text": "Amazon cloud services for scalable infrastructure and deployments.",
+                            "text": "I use services like Aurora, EC2, and S3 for cloud infrastructure, especially Aurora as a managed PostgreSQL database service for production projects.",
                             "level": ""
                         },
                         "es": {
-                            "text": "Servicios en la nube de Amazon para infraestructura y despliegues escalables."
+                            "text": "Utilizo servicios como Aurora, EC2 y S3 para infraestructura en la nube, especialmente Aurora como servicio de base de datos PostgreSQL gestionado para proyectos en producción."
                         }
                     }
                 }
