@@ -1,0 +1,86 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Services",
+                "title_short_nav": "Services",
+                "title_long_prefix": "Discover",
+                "title_long": "My {{Services}}"
+            },
+            "es": {
+                "title_short": "Servicios",
+                "title_short_nav": "Servicios",
+                "title_long_prefix": "Descubre",
+                "title_long": "Mis {{Servicios}}"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleCards",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "fa-solid fa-mobile-screen-button",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "date": {"year": null, "month": null},
+                    "link": {"href": "", "tooltipString": ""},
+                    "locales": {
+                        "en": {
+                            "title": "{{Mobile}} App Development",
+                            "text": "I build cross-platform mobile apps with React Native for iOS and Android — real-time features, geolocation, push notifications, and smooth native experiences."
+                        },
+                        "es": {
+                            "title": "Desarrollo de {{Apps}} Mobile",
+                            "text": "Creo aplicaciones móviles multiplataforma con React Native para iOS y Android — funciones en tiempo real, geolocalización, notificaciones push y experiencias nativas fluidas."
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "",
+                    "faIcon": "fa-solid fa-code",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "date": {"year": null, "month": null},
+                    "link": {"href": "", "tooltipString": ""},
+                    "locales": {
+                        "en": {
+                            "title": "{{Full Stack}} Web Development",
+                            "text": "I design and develop complete web applications — from interactive frontends with React and Next.js to robust backends with NestJS, databases, and cloud deployment."
+                        },
+                        "es": {
+                            "title": "Desarrollo Web {{Full Stack}}",
+                            "text": "Diseño y desarrollo aplicaciones web completas — desde frontends interactivos con React y Next.js hasta backends robustos con NestJS, bases de datos y deploy en la nube."
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": "",
+                    "faIcon": "fa-solid fa-server",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "date": {"year": null, "month": null},
+                    "link": {"href": "", "tooltipString": ""},
+                    "locales": {
+                        "en": {
+                            "title": "Custom {{APIs}} & Backends",
+                            "text": "I build tailored REST APIs with authentication, payment integrations, third-party services, and scalable architectures ready for production."
+                        },
+                        "es": {
+                            "title": "{{APIs}} y Backends a medida",
+                            "text": "Construyo APIs REST a medida con autenticación, integración de pagos, servicios de terceros y arquitecturas escalables listas para producción."
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

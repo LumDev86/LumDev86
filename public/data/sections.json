@@ -7,6 +7,12 @@
             "faIcon": "fa-solid fa-address-card"
         },
         {
+            "id": "services",
+            "categoryId": "home",
+            "jsonPath": "/data/sections/services.json",
+            "faIcon": "fa-solid fa-handshake"
+        },
+        {
             "id": "education",
             "categoryId": "background",
             "jsonPath": "/data/sections/education.json",
