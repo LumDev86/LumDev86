@@ -38,13 +38,13 @@ div.logo-wrapper-size-3 {
 }
 
 div.logo-wrapper-size-4 {
-    --size: 180px;
-    @include media-breakpoint-down(xxl) {--size: 160px;}
-    @include media-breakpoint-down(xl) {--size: 140px;}
-    @include media-breakpoint-down(lg) {--size: 120px;}
-    @include media-breakpoint-down(md) {--size: 100px;}
-    @include media-breakpoint-down(sm) {--size: 80px;}
+    --size: 320px;
+    @include media-breakpoint-down(xxl) {--size: 280px;}
+    @include media-breakpoint-down(xl) {--size: 240px;}
+    @include media-breakpoint-down(lg) {--size: 200px;}
+    @include media-breakpoint-down(md) {--size: 170px;}
+    @include media-breakpoint-down(sm) {--size: 140px;}
 
     width: var(--size);
-    height: var(--size);
+    height: auto;
 }
