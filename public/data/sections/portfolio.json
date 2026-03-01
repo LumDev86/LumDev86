@@ -21,18 +21,56 @@
             "id": 1,
             "component": "ArticlePortfolio",
             "locales": {
-                "en": {},
-                "es": {}
+                "en": {
+                    "category_all": "All",
+                    "category_projects": "Projects",
+                    "category_demos": "Demos"
+                },
+                "es": {
+                    "category_all": "Todos",
+                    "category_projects": "Proyectos",
+                    "category_demos": "Demos"
+                }
             },
             "settings": {
-                "categorize_by": [],
+                "categorize_by": ["category_projects", "category_demos"],
                 "order_items_by": "id",
                 "order_items_sort": "asc"
             },
             "items": [
                 {
                     "id": 1,
-                    "categoryId": "",
+                    "categoryId": "category_projects",
+                    "img": "images/pictures/logo-cargaFlow.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [],
+                        "screenshots": [
+                            "imgCargaFlow/Auth.PNG",
+                            "imgCargaFlow/inicio.PNG",
+                            "imgCargaFlow/SoliEnvio.PNG",
+                            "imgCargaFlow/SelecTransport.PNG"
+                        ],
+                        "screenshotsAspectRatio": "9:16",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "CargaFlow",
+                            "text": "<b>Full-Stack mobile app</b> for cargo logistics connecting shippers with carriers in real time. Built with <b>NestJS</b> and <b>React Native</b>. Features real-time tracking via <b>WebSockets</b>, geolocation with <b>Google Maps</b>, JWT authentication, and dynamic pricing.",
+                            "tags": ["React Native", "NestJS", "PostgreSQL", "WebSockets"]
+                        },
+                        "es": {
+                            "title": "CargaFlow",
+                            "text": "<b>App móvil Full-Stack</b> de logística de carga que conecta solicitantes con transportistas en tiempo real. Desarrollada con <b>NestJS</b> y <b>React Native</b>. Incluye seguimiento en tiempo real con <b>WebSockets</b>, geolocalización con <b>Google Maps</b>, autenticación JWT y precios dinámicos.",
+                            "tags": ["React Native", "NestJS", "PostgreSQL", "WebSockets"]
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "categoryId": "category_projects",
                     "img": "images/pictures/wallmapu-logo.png",
                     "faIcon": "",
                     "faIconColors": {"bg": "", "fill": ""},
@@ -41,26 +79,31 @@
                             {"href": "https://wall-mapuapi-production.up.railway.app/api/docs", "tooltipString": "open_website", "faIcon": "fa-solid fa-link"},
                             {"href": "https://github.com/LumDev86/Wall-MapuApi", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}
                         ],
-                        "screenshots": [],
-                        "screenshotsAspectRatio": "",
+                        "screenshots": [
+                            "imgWallMapu/inicio.PNG",
+                            "imgWallMapu/Categoria.PNG",
+                            "imgWallMapu/Productos.PNG",
+                            "imgWallMapu/Detalles.PNG"
+                        ],
+                        "screenshotsAspectRatio": "9:16",
                         "youtubeVideo": ""
                     },
                     "locales": {
                         "en": {
                             "title": "Wallmapu",
-                            "text": "Backend <b>REST API</b> for a pet shop marketplace built with <b>NestJS</b> and <b>TypeScript</b>. Includes geolocation via PostGIS, <b>MercadoPago</b> payments, JWT auth with role-based access, and <b>Redis</b> caching.",
-                            "tags": ["NestJS", "TypeScript", "PostgreSQL", "Redis"]
+                            "text": "<b>Full-Stack mobile app</b> — pet products marketplace connecting local pet shops with customers. Built with <b>NestJS</b> and <b>React Native</b>. Includes geolocation via <b>PostGIS</b>, <b>MercadoPago</b> payments, role-based JWT auth, and <b>Redis</b> caching.",
+                            "tags": ["React Native", "NestJS", "PostgreSQL", "MercadoPago"]
                         },
                         "es": {
                             "title": "Wallmapu",
-                            "text": "<b>API REST</b> backend para un marketplace de petshops con <b>NestJS</b> y <b>TypeScript</b>. Incluye geolocalización con PostGIS, pagos con <b>MercadoPago</b>, autenticación JWT con roles y caché <b>Redis</b>.",
-                            "tags": ["NestJS", "TypeScript", "PostgreSQL", "Redis"]
+                            "text": "<b>App móvil Full-Stack</b> — marketplace de productos para mascotas que conecta pet shops locales con clientes. Desarrollada con <b>NestJS</b> y <b>React Native</b>. Incluye geolocalización con <b>PostGIS</b>, pagos con <b>MercadoPago</b>, autenticación JWT con roles y caché <b>Redis</b>.",
+                            "tags": ["React Native", "NestJS", "PostgreSQL", "MercadoPago"]
                         }
                     }
                 },
                 {
-                    "id": 2,
-                    "categoryId": "",
+                    "id": 3,
+                    "categoryId": "category_demos",
                     "img": "",
                     "faIcon": "fa-solid fa-building-columns",
                     "faIconColors": {"bg": "#2C2C2C", "fill": "#E8D5B7"},
@@ -87,8 +130,8 @@
                     }
                 },
                 {
-                    "id": 3,
-                    "categoryId": "",
+                    "id": 4,
+                    "categoryId": "category_demos",
                     "img": "",
                     "faIcon": "fa-solid fa-burger",
                     "faIconColors": {"bg": "#D32F2F", "fill": "#FFC107"},
