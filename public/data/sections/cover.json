@@ -190,8 +190,8 @@
                 "order_items_sort": "asc"
             },
             "locales": {
-                "en": {"title": "Personal {{interests}}"},
-                "es": {"title": "Intereses {{personales}}"}
+                "en": {"title": "Currently {{exploring}}"},
+                "es": {"title": "Actualmente {{explorando}}"}
             },
             "items": [
                 {
@@ -204,11 +204,11 @@
                     "locales": {
                         "en": {
                             "title": "Automations with {{N8N}}",
-                            "text": "Exploring workflow automations and integrations between services."
+                            "text": "Building automated workflows to connect services, reduce manual tasks, and streamline business processes."
                         },
                         "es": {
                             "title": "Automatizaciones con {{N8N}}",
-                            "text": "Explorando automatizaciones de flujos de trabajo e integraciones entre servicios."
+                            "text": "Creando flujos automatizados para conectar servicios, reducir tareas manuales y optimizar procesos de negocio."
                         }
                     }
                 },
@@ -222,11 +222,11 @@
                     "locales": {
                         "en": {
                             "title": "{{QA}} Testing",
-                            "text": "Currently taking a course on QA testing to broaden my skill set."
+                            "text": "Training in quality assurance to deliver more robust and reliable software from development to production."
                         },
                         "es": {
                             "title": "{{QA}} Testing",
-                            "text": "Actualmente realizando un curso de QA tester para ampliar mis habilidades."
+                            "text": "Formándome en aseguramiento de calidad para entregar software más robusto y confiable desde el desarrollo hasta producción."
                         }
                     }
                 },
@@ -240,34 +240,16 @@
                     "locales": {
                         "en": {
                             "title": "{{DevOps}} & Microservices",
-                            "text": "Learning about CI/CD pipelines, containers, and microservices architecture."
+                            "text": "Deepening knowledge in CI/CD pipelines, Docker containers, and microservices architecture for scalable deployments."
                         },
                         "es": {
                             "title": "{{DevOps}} y Microservicios",
-                            "text": "Aprendiendo sobre pipelines CI/CD, contenedores y arquitectura de microservicios."
+                            "text": "Profundizando en pipelines CI/CD, contenedores Docker y arquitectura de microservicios para despliegues escalables."
                         }
                     }
                 },
                 {
                     "id": 4,
-                    "faIcon": "fa-solid fa-pen-nib",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "label": null,
-                    "link": {"href": null, "tooltipString": null},
-                    "copyToClipboardButton": false,
-                    "locales": {
-                        "en": {
-                            "title": "{{Design}} Tools",
-                            "text": "Creating visual content with Canva, Photoshop, and Illustrator."
-                        },
-                        "es": {
-                            "title": "Herramientas de {{Diseño}}",
-                            "text": "Creando contenido visual con Canva, Photoshop e Illustrator."
-                        }
-                    }
-                },
-                {
-                    "id": 5,
                     "faIcon": "fa-solid fa-wand-magic-sparkles",
                     "faIconColors": {"bg": "", "fill": ""},
                     "label": null,
@@ -276,16 +258,16 @@
                     "locales": {
                         "en": {
                             "title": "Artificial {{Intelligence}}",
-                            "text": "Using AI tools like GitHub Copilot and Claude to boost development productivity."
+                            "text": "Integrating AI tools like GitHub Copilot and Claude into the development workflow to accelerate delivery and code quality."
                         },
                         "es": {
                             "title": "Inteligencia {{Artificial}}",
-                            "text": "Utilizando herramientas de IA como GitHub Copilot y Claude para potenciar la productividad en el desarrollo."
+                            "text": "Integrando herramientas de IA como GitHub Copilot y Claude en el flujo de desarrollo para acelerar entregas y mejorar la calidad del código."
                         }
                     }
                 },
                 {
-                    "id": 6,
+                    "id": 5,
                     "faIcon": "fa-solid fa-cloud",
                     "faIconColors": {"bg": "", "fill": ""},
                     "label": null,
@@ -294,11 +276,11 @@
                     "locales": {
                         "en": {
                             "title": "{{Cloud}} Computing",
-                            "text": "Exploring cloud services like AWS, GCP, and Azure."
+                            "text": "Working with cloud platforms like AWS, GCP, and Azure for deploying and managing production applications."
                         },
                         "es": {
                             "title": "{{Cloud}} Computing",
-                            "text": "Explorando servicios en la nube como AWS, GCP y Azure."
+                            "text": "Trabajando con plataformas cloud como AWS, GCP y Azure para desplegar y gestionar aplicaciones en producción."
                         }
                     }
                 }
