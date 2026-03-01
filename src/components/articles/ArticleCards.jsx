@@ -41,11 +41,21 @@ function ArticleCardsItems({ dataWrapper, selectedItemCategoryId }) {
     const constants = useConstants()
     const filteredItems = dataWrapper.getOrderedItemsFilteredBy(selectedItemCategoryId)
 
+    if (dataWrapper.settings.displayAsGrid) {
+        return (
+            <div className={`article-cards-items article-cards-grid`}>
+                {filteredItems.map((itemWrapper, key) => (
+                    <ArticleCardsItem itemWrapper={itemWrapper} key={key}/>
+                ))}
+            </div>
+        )
+    }
+
     return (
         <Swipeable className={`article-cards-items`}
                    breakpoints={constants.SWIPER_BREAKPOINTS_FOR_THREE_SLIDES}>
             {filteredItems.map((itemWrapper, key) => (
-                <ArticleCardsItem itemWrapper={itemWrapper} 
+                <ArticleCardsItem itemWrapper={itemWrapper}
                                       key={key}/>
             ))}
         </Swipeable>

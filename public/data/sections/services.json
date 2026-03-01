@@ -23,7 +23,8 @@
             "locales": {},
             "settings": {
                 "order_items_by": "id",
-                "order_items_sort": "asc"
+                "order_items_sort": "asc",
+                "display_as_grid": true
             },
             "items": [
                 {
@@ -90,11 +91,11 @@
                     "locales": {
                         "en": {
                             "title": "{{Technical}} Consulting",
-                            "text": "I help you choose the right tech stack, define your project architecture, review existing code, and plan a clear technical roadmap for your product."
+                            "text": "I help you choose the right tech stack, define your project architecture, review existing code, and coordinate development teams as project manager."
                         },
                         "es": {
                             "title": "Consultoría {{Técnica}}",
-                            "text": "Te ayudo a elegir el stack tecnológico adecuado, definir la arquitectura de tu proyecto, revisar código existente y planificar una hoja de ruta técnica clara para tu producto."
+                            "text": "Te ayudo a elegir el stack tecnológico adecuado, definir la arquitectura de tu proyecto, revisar código existente y coordinar equipos de desarrollo como project manager."
                         }
                     }
                 },

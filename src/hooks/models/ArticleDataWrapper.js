@@ -61,6 +61,9 @@ export default class ArticleDataWrapper {
             orderItemsBy: rawSettings["order_items_by"] || "id",
             orderItemsSort: rawSettings["order_items_sort"] || "asc",
 
+            // - ArticleCards
+            displayAsGrid: Boolean(rawSettings["display_as_grid"]) || undefined,
+
             // - ArticleInlineList
             displayAsListIfWidthIsLowerThan: rawSettings["display_as_list_if_width_is_lower_than"] || undefined,
 

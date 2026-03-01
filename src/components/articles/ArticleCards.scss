@@ -39,6 +39,20 @@ div.article-cards-items {
     }
 }
 
+div.article-cards-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+    @include media-breakpoint-down(lg) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    @include media-breakpoint-down(sm) {
+        grid-template-columns: 1fr;
+    }
+}
+
 div.article-cards-item {
     display: flex;
     flex-direction: column;
