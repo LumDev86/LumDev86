@@ -47,10 +47,12 @@
                     "preview": {
                         "links": [],
                         "screenshots": [
-                            "imgCargaFlow/Auth.PNG",
-                            "imgCargaFlow/inicio.PNG",
-                            "imgCargaFlow/SoliEnvio.PNG",
-                            "imgCargaFlow/SelecTransport.PNG"
+                            "imgCargaFlow/iPhone 13 & 14 - 1.svg",
+                            "imgCargaFlow/Cargaflow.svg",
+                            "imgCargaFlow/Solicita tu envio 2.svg",
+                            "imgCargaFlow/Solicita tu envio 4.svg",
+                            "imgCargaFlow/Solicita tu envio 9.svg",
+                            "imgCargaFlow/Actvidad.svg"
                         ],
                         "screenshotsAspectRatio": "9:16",
                         "youtubeVideo": ""
@@ -80,10 +82,12 @@
                             {"href": "https://github.com/LumDev86/Wall-MapuApi", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}
                         ],
                         "screenshots": [
-                            "imgWallMapu/inicio.PNG",
-                            "imgWallMapu/Categoria.PNG",
-                            "imgWallMapu/Productos.PNG",
-                            "imgWallMapu/Detalles.PNG"
+                            "imgWallMapu/Inicio.svg",
+                            "imgWallMapu/catalogo.svg",
+                            "imgWallMapu/Detalle de busqueda.svg",
+                            "imgWallMapu/Detalle de priducto.svg",
+                            "imgWallMapu/Detalle-tienda.svg",
+                            "imgWallMapu/maps.svg"
                         ],
                         "screenshotsAspectRatio": "9:16",
                         "youtubeVideo": ""
