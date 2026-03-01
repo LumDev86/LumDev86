@@ -269,21 +269,10 @@ function PreloaderWindowInfo({ title, subtitle, logoOffset, hidden, setDidLoadLo
 
     return (
         <div className={`preloader-window-info ${hiddenClass}`}>
-            <div className={`preloader-window-info-title`}>
-                <Logo size={3}
-                      className={`preloader-window-logo`}
-                      setDidLoad={setDidLoadLogo}
-                      style={logoStyle}
-                      isDark={isDark}/>
-
-                <h5 className={`lead-2 mb-0`}
-                    dangerouslySetInnerHTML={{__html: title}}/>
-            </div>
-
-            <div className={`preloader-window-info-developer text-4`}
-                 style={developerStyle}
-                 dangerouslySetInnerHTML={{__html: subtitle}}>
-            </div>
+            <Logo size={4}
+                  className={`preloader-window-logo`}
+                  setDidLoad={setDidLoadLogo}
+                  isDark={isDark}/>
         </div>
     )
 }
