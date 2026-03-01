@@ -79,6 +79,42 @@
                             "text": "Construyo APIs REST a medida con autenticación, integración de pagos, servicios de terceros y arquitecturas escalables listas para producción."
                         }
                     }
+                },
+                {
+                    "id": 4,
+                    "img": "",
+                    "faIcon": "fa-solid fa-lightbulb",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "date": {"year": null, "month": null},
+                    "link": {"href": "", "tooltipString": ""},
+                    "locales": {
+                        "en": {
+                            "title": "{{Technical}} Consulting",
+                            "text": "I help you choose the right tech stack, define your project architecture, review existing code, and plan a clear technical roadmap for your product."
+                        },
+                        "es": {
+                            "title": "Consultoría {{Técnica}}",
+                            "text": "Te ayudo a elegir el stack tecnológico adecuado, definir la arquitectura de tu proyecto, revisar código existente y planificar una hoja de ruta técnica clara para tu producto."
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "img": "",
+                    "faIcon": "fa-solid fa-rocket",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "date": {"year": null, "month": null},
+                    "link": {"href": "", "tooltipString": ""},
+                    "locales": {
+                        "en": {
+                            "title": "{{MVP}} Development",
+                            "text": "I turn your idea into a functional minimum viable product — fast prototyping, core features first, and ready to validate with real users."
+                        },
+                        "es": {
+                            "title": "Desarrollo de {{MVPs}}",
+                            "text": "Transformo tu idea en un producto mínimo viable funcional — prototipado rápido, funcionalidades core primero y listo para validar con usuarios reales."
+                        }
+                    }
                 }
             ]
         }
