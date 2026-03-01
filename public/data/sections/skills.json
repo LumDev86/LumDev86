@@ -842,13 +842,13 @@
                     "locales": {
                         "en": {
                             "title": "English",
-                            "text": "Basic level; currently learning and improving.",
-                            "level": "Basic"
+                            "text": "Technical reading and writing proficiency. Able to read documentation, write code comments, and communicate in professional contexts. Actively improving.",
+                            "level": "A2 – In progress"
                         },
                         "es": {
                             "title": "Inglés",
-                            "text": "Nivel básico; actualmente aprendiendo y mejorando.",
-                            "level": "Básico"
+                            "text": "Lectura y escritura técnica. Capaz de leer documentación, escribir comentarios de código y comunicarme en contextos profesionales. En mejora activa.",
+                            "level": "A2 – En progreso"
                         }
                     }
                 }
