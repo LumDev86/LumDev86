@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120" fill="none">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06B6D4"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+  </defs>
+
+  <!-- <lumDev/> para fondo blanco -->
+  <text x="200" y="60" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="48" font-weight="700" text-anchor="middle"><tspan fill="url(#grad)">&lt;</tspan><tspan fill="#1E293B">Lum</tspan><tspan fill="url(#grad)">Dev</tspan><tspan fill="url(#grad)">/&gt;</tspan></text>
+
+  <!-- Accent line -->
+  <rect x="160" y="72" width="80" height="2" rx="1" fill="url(#grad)" opacity="0.5"/>
+
+  <!-- Subtitle -->
+  <text x="200" y="98" font-family="'Inter', sans-serif" font-size="16" font-weight="400" fill="#475569" letter-spacing="3" text-anchor="middle">dev web &amp; mobile</text>
+</svg>

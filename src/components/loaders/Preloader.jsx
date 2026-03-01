@@ -16,7 +16,7 @@ const PreloaderState = {
     HIDDEN:             { id: 6, key: "hidden" },
 }
 
-function Preloader({ children, preloaderSettings }) {
+function Preloader({ children, preloaderSettings, defaultThemeId, supportedThemes }) {
     const scheduler = useScheduler()
     const utils = useUtils()
     const constants = useConstants()
@@ -25,6 +25,14 @@ function Preloader({ children, preloaderSettings }) {
     const title = preloaderSettings?.title || ""
     const subtitle = preloaderSettings?.subtitle || ""
     const logoOffset = preloaderSettings?.logoOffset || {}
+
+    const _resolveIsDark = () => {
+        const savedThemeId = utils.storage.getPreferredTheme()
+        const themeId = savedThemeId || defaultThemeId || "dark"
+        const theme = supportedThemes?.find(t => t.id === themeId)
+        return theme ? theme.dark : true
+    }
+    const isDark = _resolveIsDark()
 
     const [state, setState] = useState(PreloaderState.NONE)
     const [didLoadAllImages, setDidLoadAllImages] = useState(false)
@@ -143,7 +151,8 @@ function Preloader({ children, preloaderSettings }) {
                                  logoOffset={logoOffset}
                                  setDidLoadAllImages={setDidLoadAllImages}
                                  showElements={shouldShowContentElements}
-                                 isHiding={isHiding}/>
+                                 isHiding={isHiding}
+                                 isDark={isDark}/>
             )}
 
             {shouldShowContent && (
@@ -153,7 +162,7 @@ function Preloader({ children, preloaderSettings }) {
     )
 }
 
-function PreloaderWindow({ title, subtitle, logoOffset, setDidLoadAllImages, showElements, isHiding }) {
+function PreloaderWindow({ title, subtitle, logoOffset, setDidLoadAllImages, showElements, isHiding, isDark }) {
     const scheduler = useScheduler()
 
     const [didLoadLogo, setDidLoadLogo] = useState(false)
@@ -190,13 +199,14 @@ function PreloaderWindow({ title, subtitle, logoOffset, setDidLoadAllImages, sho
                                      subtitle={subtitle}
                                      logoOffset={logoOffset}
                                      hidden={!showElements}
-                                     setDidLoadLogo={setDidLoadLogo}/>
+                                     setDidLoadLogo={setDidLoadLogo}
+                                     isDark={isDark}/>
             </div>
         </div>
     )
 }
 
-function PreloaderWindowInfo({ title, subtitle, logoOffset, hidden, setDidLoadLogo }) {
+function PreloaderWindowInfo({ title, subtitle, logoOffset, hidden, setDidLoadLogo, isDark }) {
     const utils = useUtils()
     const scheduler = useScheduler()
 
@@ -263,7 +273,8 @@ function PreloaderWindowInfo({ title, subtitle, logoOffset, hidden, setDidLoadLo
                 <Logo size={3}
                       className={`preloader-window-logo`}
                       setDidLoad={setDidLoadLogo}
-                      style={logoStyle}/>
+                      style={logoStyle}
+                      isDark={isDark}/>
 
                 <h5 className={`lead-2 mb-0`}
                     dangerouslySetInnerHTML={{__html: title}}/>

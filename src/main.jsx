@@ -102,7 +102,9 @@ const AppEssentialsWrapper = ({children}) => {
     return (
         <StrictMode>
             {settings && (
-                <Preloader preloaderSettings={settings["preloaderSettings"]}>
+                <Preloader preloaderSettings={settings["preloaderSettings"]}
+                           defaultThemeId={settings["templateSettings"]?.defaultThemeId}
+                           supportedThemes={settings["supportedThemes"]}>
                     <DataProvider settings={settings}>
                         {children}
                     </DataProvider>
