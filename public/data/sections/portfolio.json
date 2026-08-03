@@ -41,7 +41,7 @@
                 {
                     "id": 1,
                     "categoryId": "category_projects",
-                    "img": "images/pictures/logo-cargaFlow.png",
+                    "img": "images/pictures/logo-cargaFlow.jpeg",
                     "faIcon": "",
                     "faIconColors": {"bg": "", "fill": ""},
                     "preview": {
@@ -75,7 +75,7 @@
                 {
                     "id": 2,
                     "categoryId": "category_projects",
-                    "img": "images/pictures/wallmapu-logo.png",
+                    "img": "images/pictures/wallmapu-logo.jpeg",
                     "faIcon": "",
                     "faIconColors": {"bg": "", "fill": ""},
                     "preview": {
