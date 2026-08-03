@@ -45,14 +45,16 @@
                     "faIcon": "",
                     "faIconColors": {"bg": "", "fill": ""},
                     "preview": {
-                        "links": [],
+                        "links": [
+                            {"href": "https://play.google.com/store/apps/details?id=com.cargaflow.app", "tooltipString": "see_on_google_play", "faIcon": "fa-brands fa-google-play"}
+                        ],
                         "screenshots": [
-                            "imgCargaFlow/iPhone 13 & 14 - 1.svg",
-                            "imgCargaFlow/Cargaflow.svg",
-                            "imgCargaFlow/Solicita tu envio 2.svg",
-                            "imgCargaFlow/Solicita tu envio 4.svg",
-                            "imgCargaFlow/Solicita tu envio 9.svg",
-                            "imgCargaFlow/Actvidad.svg"
+                            "imgCargaFlow/cargaflow-1.webp",
+                            "imgCargaFlow/cargaflow-2.webp",
+                            "imgCargaFlow/cargaflow-3.webp",
+                            "imgCargaFlow/cargaflow-4.webp",
+                            "imgCargaFlow/cargaflow-5.webp",
+                            "imgCargaFlow/cargaflow-6.webp"
                         ],
                         "screenshotsAspectRatio": "9:16",
                         "youtubeVideo": ""
@@ -78,16 +80,16 @@
                     "faIconColors": {"bg": "", "fill": ""},
                     "preview": {
                         "links": [
-                            {"href": "https://wall-mapuapi-production.up.railway.app/api/docs", "tooltipString": "open_website", "faIcon": "fa-solid fa-link"},
-                            {"href": "https://github.com/LumDev86/Wall-MapuApi", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}
+                            {"href": "https://play.google.com/store/apps/details?id=com.whapy.wallmapu", "tooltipString": "see_on_google_play", "faIcon": "fa-brands fa-google-play"}
                         ],
                         "screenshots": [
-                            "imgWallMapu/Inicio.svg",
-                            "imgWallMapu/catalogo.svg",
-                            "imgWallMapu/Detalle de busqueda.svg",
-                            "imgWallMapu/Detalle de priducto.svg",
-                            "imgWallMapu/Detalle-tienda.svg",
-                            "imgWallMapu/maps.svg"
+                            "imgWallMapu/wallmapu-1.webp",
+                            "imgWallMapu/wallmapu-2.webp",
+                            "imgWallMapu/wallmapu-3.webp",
+                            "imgWallMapu/wallmapu-4.webp",
+                            "imgWallMapu/wallmapu-5.webp",
+                            "imgWallMapu/wallmapu-6.webp",
+                            "imgWallMapu/wallmapu-7.webp"
                         ],
                         "screenshotsAspectRatio": "9:16",
                         "youtubeVideo": ""
