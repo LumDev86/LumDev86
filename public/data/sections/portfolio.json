@@ -162,6 +162,35 @@
                             "tags": ["Frontend", "Web App", "Vercel"]
                         }
                     }
+                },
+                {
+                    "id": 5,
+                    "categoryId": "category_projects",
+                    "img": "images/pictures/logo-kramer.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [],
+                        "screenshots": [
+                            "imgKramer/kramer-1.png",
+                            "imgKramer/kramer-2.png",
+                            "imgKramer/kramer-3.png"
+                        ],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Kiosco Kramer",
+                            "text": "<b>Full-Stack admin panel</b> for managing a convenience store: POS-style sales, inventory control, categories, distributors, customers and reports. Built with <b>React</b> on the frontend and <b>NestJS</b> on the backend, with <b>PostgreSQL</b> managed through <b>Prisma</b> and hosted on <b>Supabase</b>.",
+                            "tags": ["React", "NestJS", "Prisma", "Supabase"]
+                        },
+                        "es": {
+                            "title": "Kiosco Kramer",
+                            "text": "<b>Panel de administración Full-Stack</b> para la gestión integral de un kiosco: ventas estilo POS, control de stock, categorías, distribuidoras, clientes y reportes. Desarrollado con <b>React</b> en el frontend y <b>NestJS</b> en el backend, con <b>PostgreSQL</b> gestionado a través de <b>Prisma</b> y alojado en <b>Supabase</b>.",
+                            "tags": ["React", "NestJS", "Prisma", "Supabase"]
+                        }
+                    }
                 }
             ]
         }
